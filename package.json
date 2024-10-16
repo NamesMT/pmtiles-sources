@@ -1,7 +1,7 @@
 {
   "name": "@namesmt/pmtiles-sources",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@9.12.1",
   "author": "NamesMT <dangquoctrung123@gmail.com>",
   "license": "MIT",
