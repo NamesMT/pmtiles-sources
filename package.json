@@ -2,7 +2,7 @@
   "name": "@namesmt/pmtiles-sources",
   "type": "module",
   "version": "0.1.1",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@9.15.4",
   "author": "NamesMT <dangquoctrung123@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/namesmt",
@@ -24,7 +24,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=20.13.1"
+    "node": ">=20.18.1"
   },
   "scripts": {
     "start": "NODE_ENV=dev tsx src/index.ts",
@@ -44,25 +44,25 @@
   },
   "dependencies": {
     "@aws-lite/s3-types": "^0.2.6",
-    "pmtiles": "^3.2.0"
+    "pmtiles": "^3.2.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^3.7.3",
-    "@namesmt/utils": "^0.5.6",
-    "@types/node": "^20.16.11",
-    "@vitest/coverage-v8": "^2.1.3",
-    "eslint": "^9.12.0",
-    "lint-staged": "^15.2.10",
+    "@antfu/eslint-config": "^3.14.0",
+    "@namesmt/utils": "^0.5.9",
+    "@types/node": "^20.17.14",
+    "@vitest/coverage-v8": "^2.1.8",
+    "eslint": "^9.18.0",
+    "lint-staged": "^15.4.1",
     "simple-git-hooks": "^2.11.1",
-    "std-env": "^3.7.0",
-    "tsx": "^4.19.1",
-    "typescript": "^5.6.3",
+    "std-env": "^3.8.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
     "unbuild": "^2.0.0",
-    "vitest": "^2.1.3"
+    "vitest": "^2.1.8"
   },
   "pnpm": {
     "overrides": {
-      "is-core-module": "npm:@nolyfill/is-core-module@^1"
+      "is-core-module": "npm:@nolyfill/is-core-module@^1.0.39"
     }
   },
   "simple-git-hooks": {
