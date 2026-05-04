@@ -2,7 +2,7 @@
   "name": "@namesmt/pmtiles-sources",
   "type": "module",
   "version": "0.1.1",
-  "packageManager": "pnpm@9.12.1",
+  "packageManager": "pnpm@10.33.3",
   "author": "NamesMT <dangquoctrung123@gmail.com>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/namesmt",
